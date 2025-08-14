@@ -29,4 +29,4 @@ console.log(booleanIsLoggedIn)
 //*Note
 // 1 -> true; 0 -> false
 // "" -> false
-// "Pratik" -> true
+// "Pratik" ->
