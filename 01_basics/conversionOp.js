@@ -24,9 +24,15 @@ let valueInNumber = Number(score)
 let isLoggedIn = "Pratik"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 //*Note
 // 1 -> true; 0 -> false
 // "" -> false
-// "Pratik" ->
+// "Pratik" -> true
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
