@@ -11,7 +11,7 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor)
 console.log(instructor)
 
-// Json -> key is string and value is also string
+// Json -> key is string and value is also string(here) | values can be -> string, number, boolean, null, array, object
 
 // {
 //     "name": "Pratik"
