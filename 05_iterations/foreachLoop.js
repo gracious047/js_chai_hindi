@@ -14,7 +14,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
     
 // }
-// coding.forEach(printMe)
+// coding.forEach(printMe) // -> reference
 
 // coding.forEach( (item, index, arr) => {
 //     console.log(item, index, arr);
@@ -37,6 +37,7 @@ const myCoding = [
 ]
 
 myCoding.forEach( (item) => {
+    // console.log(item)
     console.log(item.langauageName);
     // console.log(item.languageFileName);
 } )  
