@@ -1,0 +1,128 @@
+title
+<h1 id=​"title" class=​"test">​DOM learning on chai aur code​</h1>​
+title.style.backgroundColor = `green`
+'green'
+title.style.padding = `15px`
+'15px'
+title.style.borderRadius = `20px`
+'20px'
+
+title
+<h1 id=​"title" class=​"test" style=​"background-color:​ green;​ padding:​ 15px;​ border-radius:​ 20px;​">​DOM learning on chai aur code​</h1>​
+title.textContent
+'DOM learning on chai aur code'
+title.innerHTML
+'DOM learning on chai aur code'
+title.innerText
+'DOM learning on chai aur code'
+
+document.getElementsByClassName(`heading`)
+HTMLCollection [h1#title.heading, title: h1#title.heading]
+
+document.querySelector(`input[type="password"]`)
+<input type=​"password" name=​"password" id=​"password">​
+
+document.querySelector(`ul`)
+<ul>​…​</ul>​<li>​…​</li>​::marker​"one"</li>​<li>​…​</li>​<li>​…​</li>​</ul>​
+const ul = document.querySelector(`ul`)
+undefined
+const myul = document.querySelector(`ul`)
+undefined
+myul.querySelector(`li`)
+<li>​…​</li>​
+const turnGreen = myul.querySelector('li')
+undefined
+turnGreen.style.backgroundColor = "green"
+'green'
+turnGreen.style.padding = "10px"
+'10px'
+turnGreen.innerText
+'one'
+turnGreen.innerText = "five"
+'five
+
+tempLiList.style.color = 'green'
+VM2392:1 Uncaught ReferenceError: tempLiList is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2392:1Understand this error
+tempLiList
+VM2402:1 Uncaught ReferenceError: tempLiList is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2402:1Understand this error
+const tempLiList = document.querySelectorAll('li')
+undefined
+tempLiList
+NodeList(3) [li, li, li]
+tempLiList.style.color = 'green'
+VM2461:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:24
+(anonymous) @ VM2461:1Understand this error
+tempLiList[0].style.color = 'green'
+'green'
+tempLiList[0].style.color = 'chocolate'
+'chocolate'
+
+const myH1 = document.querySelectorAll('h1')
+undefined
+myH1
+NodeList [h1#title.heading]
+myH1.style.color = 'green'
+VM2720:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:18
+(anonymous) @ VM2720:1Understand this error
+myH1.style.color = 'whitesmoke'
+VM2740:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:18
+(anonymous) @ VM2740:1Understand this error
+myH1.style.color = 'aqua'
+VM2757:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:18
+(anonymous) @ VM2757:1Understand this error
+myH1[1].style.color = 'aqua'
+VM2782:1 Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+    at <anonymous>:1:9
+(anonymous) @ VM2782:1Understand this error
+myH1[0].style.color = 'aqua'
+'aqua'
+
+tempLiList
+NodeList(3) [li, li, li]
+tempLiList.forEach(() => {)
+VM2854:1 Uncaught SyntaxError: Unexpected token ')'Understand this error
+tempLiList.forEach((l) => {
+    l.style.backgroundColor = 'green'
+})
+undefined
+tempLiList.forEach(function (l) {
+    l.style.backgroundColor = 'aqua'
+})
+
+document.getElementsByClassName('list-item')
+HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+const tempClassList = document.getElementsByClassName('list-item')
+undefined
+tempClassList
+HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+tempClassList.forEach(function(li) {
+    console.log(li)
+})
+VM3224:1 Uncaught TypeError: tempClassList.forEach is not a function
+    at <anonymous>:1:15
+(anonymous) @ VM3224:1Understand this error
+
+// Converting HTMLCollection to Array
+
+Array.from(tempClassList)
+(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+const myConvertedArray = Array.from(tempClassList)
+
+document.querySelectorAll('h2')
+NodeList(15) [h2.vector-pinnable-header-label, h2#History, h2#Trademark, h2#Website_client-side_usage, h2#Other_usage, h2#Execution, h2#Features, h2#Syntax, h2#Security, h2#Development_tools, h2#Related_technologies, h2#Notes, h2#References, h2#Further_reading, h2#External_links]
+document.querySelectorAll('h3')
+NodeList(28) [h3#Creation_at_Netscape, h3#Adoption_by_Microsoft, h3#The_rise_of_JScript, h3#Growth_and_standardization, h3#Reaching_maturity, h3#Examples_of_scripted_behavior, h3#Libraries_and_frameworks, h3#JavaScript_engine, h3#Runtime_system, h3#Imperative_and_structured, h3#Weakly_typed, h3#Dynamic, h3#Object-orientation_(prototype-based), h3#Functional, h3#Delegative, h3#Miscellaneous, h3#Vendor-specific_extensions, h3#Cross-site_scripting, h3#Cross-site_request_forgery, h3#Misplaced_trust_in_the_client, h3#Misplaced_trust_in_developers, h3#Browser_and_plugin_coding_errors, h3#Sandbox_implementation_errors, h3#Hardware_vulnerabilities, h3#Java, h3#JSON, h3#Transpilers, h3#WebAssembly]0: h3#Creation_at_Netscape1: h3#Adoption_by_Microsoft2: h3#The_rise_of_JScript3: h3#Growth_and_standardization4: h3#Reaching_maturity5: h3#Examples_of_scripted_behavior6: h3#Libraries_and_frameworks7: h3#JavaScript_engine8: h3#Runtime_system9: h3#Imperative_and_structured10: h3#Weakly_typed11: h3#Dynamic12: h3#Object-orientation_(prototype-based)13: h3#Functional14: h3#Delegative15: h3#Miscellaneous16: h3#Vendor-specific_extensions17: h3#Cross-site_scripting18: h3#Cross-site_request_forgery19: h3#Misplaced_trust_in_the_client20: h3#Misplaced_trust_in_developers21: h3#Browser_and_plugin_coding_errors22: h3#Sandbox_implementation_errors23: h3#Hardware_vulnerabilities24: h3#Java25: h3#JSON26: h3#Transpilers27: h3#WebAssemblylength: 28[[Prototype]]: NodeList
+const allH3 = document.querySelectorAll('h3')
+undefined
+allH3[0].innerText
+'Creation at Netscape'
+allH3[1].innerText
+'Adoption by Microsoft'
