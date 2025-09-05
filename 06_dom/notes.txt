@@ -126,3 +126,63 @@ allH3[0].innerText
 'Creation at Netscape'
 allH3[1].innerText
 'Adoption by Microsoft'
+
+const myH2 = document.querySelectorAll('.mw-heading')
+undefined
+myH2[0].innerText
+'History'
+myH2[0].forEach(function(h) {
+    h.style.color = 'red'
+})
+VM3112:1 Uncaught TypeError: myH2[0].forEach is not a function
+    at <anonymous>:1:9
+(anonymous) @ VM3112:1Understand this error
+myH2
+NodeList(57) [div.mw-heading.mw-heading2, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading2, div.mw-heading.mw-heading2, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading2, div.mw-heading.mw-heading2, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading2, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading3, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading3, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading3, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading3, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading4, div.mw-heading.mw-heading5, div.mw-heading.mw-heading5, div.mw-heading.mw-heading3, div.mw-heading.mw-heading2, div.mw-heading.mw-heading2, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading2, div.mw-heading.mw-heading2, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading3, div.mw-heading.mw-heading2, div.mw-heading.mw-heading2, div.mw-heading.mw-heading2, div.mw-heading.mw-heading2]0: div.mw-heading.mw-heading2accessKey: ""align: ""ariaActiveDescendantElement: nullariaAtomic: nullariaAutoComplete: nullariaBrailleLabel: nullariaBrailleRoleDescription: nullariaBusy: nullariaChecked: nullariaColCount: nullariaColIndex: nullariaColIndexText: nullariaColSpan: nullariaControlsElements: nullariaCurrent: nullariaDescribedByElements: nullariaDescription: nullariaDetailsElements: nullariaDisabled: nullariaErrorMessageElements: nullariaExpanded: nullariaFlowToElements: nullariaHasPopup: nullariaHidden: nullariaInvalid: nullariaKeyShortcuts: nullariaLabel: nullariaLabelledByElements: nullariaLevel: nullariaLive: nullariaModal: nullariaMultiLine: nullariaMultiSelectable: nullariaOrientation: nullariaPlaceholder: nullariaPosInSet: nullariaPressed: nullariaReadOnly: nullariaRelevant: nullariaRequired: nullariaRoleDescription: nullariaRowCount: nullariaRowIndex: nullariaRowIndexText: nullariaRowSpan: nullariaSelected: nullariaSetSize: nullariaSort: nullariaValueMax: nullariaValueMin: nullariaValueNow: nullariaValueText: nullassignedSlot: nullattributeStyleMap: StylePropertyMap {size: 1}attributes: NamedNodeMap {0: class, 1: style, class: class, style: style, length: 2}autocapitalize: ""autofocus: falsebaseURI: "https://en.wikipedia.org/wiki/JavaScript"childElementCount: 1childNodes: NodeList [h2#History]children: HTMLCollection [h2#History, History: h2#History]classList: DOMTokenList(2) ['mw-heading', 'mw-heading2', value: 'mw-heading mw-heading2']className: "mw-heading mw-heading2"clientHeight: 49clientLeft: 0clientTop: 0clientWidth: 228contentEditable: "inherit"currentCSSZoom: 1dataset: DOMStringMap {}dir: ""draggable: falseeditContext: nullelementTiming: ""enterKeyHint: ""firstChild: h2#HistoryfirstElementChild: h2#Historyhidden: falseid: ""inert: falseinnerHTML: "<h2 id=\"History\">History</h2>"innerText: "History"inputMode: ""isConnected: trueisContentEditable: falselang: ""lastChild: h2#HistorylastElementChild: h2#HistorylocalName: "div"namespaceURI: "http://www.w3.org/1999/xhtml"nextElementSibling: div.mw-heading.mw-heading3nextSibling: textnodeName: "DIV"nodeType: 1nodeValue: nullnonce: ""offsetHeight: 50offsetLeft: 0offsetParent: div#bodyContent.vector-body.ve-init-mw-desktopArticleTarget-targetContaineroffsetTop: 2500offsetWidth: 228onabort: nullonanimationend: nullonanimationiteration: nullonanimationstart: nullonauxclick: nullonbeforecopy: nullonbeforecut: nullonbeforeinput: nullonbeforematch: nullonbeforepaste: nullonbeforetoggle: nullonbeforexrselect: nullonblur: nulloncancel: nulloncanplay: nulloncanplaythrough: nullonchange: nullonclick: nullonclose: nulloncommand: nulloncontentvisibilityautostatechange: nulloncontextlost: nulloncontextmenu: nulloncontextrestored: nulloncopy: nulloncuechange: nulloncut: nullondblclick: nullondrag: nullondragend: nullondragenter: nullondragleave: nullondragover: nullondragstart: nullondrop: nullondurationchange: nullonemptied: nullonended: nullonerror: nullonfocus: nullonformdata: nullonfullscreenchange: nullonfullscreenerror: nullongotpointercapture: nulloninput: nulloninvalid: nullonkeydown: nullonkeypress: nullonkeyup: nullonload: nullonloadeddata: nullonloadedmetadata: nullonloadstart: nullonlostpointercapture: nullonmousedown: nullonmouseenter: nullonmouseleave: nullonmousemove: nullonmouseout: nullonmouseover: nullonmouseup: nullonmousewheel: nullonpaste: nullonpause: nullonplay: nullonplaying: nullonpointercancel: nullonpointerdown: nullonpointerenter: nullonpointerleave: nullonpointermove: nullonpointerout: nullonpointerover: nullonpointerrawupdate: nullonpointerup: nullonprogress: nullonratechange: nullonreset: nullonresize: nullonscroll: nullonscrollend: nullonscrollsnapchange: nullonscrollsnapchanging: nullonsearch: nullonsecuritypolicyviolation: nullonseeked: nullonseeking: nullonselect: nullonselectionchange: nullonselectstart: nullonslotchange: nullonstalled: nullonsubmit: nullonsuspend: nullontimeupdate: nullontoggle: nullontransitioncancel: nullontransitionend: nullontransitionrun: nullontransitionstart: nullonvolumechange: nullonwaiting: nullonwebkitanimationend: nullonwebkitanimationiteration: nullonwebkitanimationstart: nullonwebkitfullscreenchange: nullonwebkitfullscreenerror: nullonwebkittransitionend: nullonwheel: nullouterHTML: "<div class=\"mw-heading mw-heading2\" style=\"color: red;\"><h2 id=\"History\">History</h2></div>"outerText: "History"ownerDocument: documentparentElement: div.mw-content-ltr.mw-parser-outputparentNode: div.mw-content-ltr.mw-parser-outputpart: DOMTokenList [value: '']popover: nullprefix: nullpreviousElementSibling: metapreviousSibling: textrole: nullscrollHeight: 49scrollLeft: 0scrollTop: 0scrollWidth: 228shadowRoot: nullslot: ""spellcheck: truestyle: CSSStyleDeclaration {0: 'color', accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}tabIndex: -1tagName: "DIV"textContent: "History"title: ""translate: truevirtualKeyboardPolicy: ""writingSuggestions: "true"[[Prototype]]: HTMLDivElement(...)1: div.mw-heading.mw-heading32: div.mw-heading.mw-heading33: div.mw-heading.mw-heading34: div.mw-heading.mw-heading35: div.mw-heading.mw-heading36: div.mw-heading.mw-heading27: div.mw-heading.mw-heading28: div.mw-heading.mw-heading39: div.mw-heading.mw-heading310: div.mw-heading.mw-heading211: div.mw-heading.mw-heading212: div.mw-heading.mw-heading313: div.mw-heading.mw-heading314: div.mw-heading.mw-heading215: div.mw-heading.mw-heading316: div.mw-heading.mw-heading317: div.mw-heading.mw-heading318: div.mw-heading.mw-heading419: div.mw-heading.mw-heading420: div.mw-heading.mw-heading321: div.mw-heading.mw-heading422: div.mw-heading.mw-heading423: div.mw-heading.mw-heading424: div.mw-heading.mw-heading325: div.mw-heading.mw-heading426: div.mw-heading.mw-heading427: div.mw-heading.mw-heading328: div.mw-heading.mw-heading429: div.mw-heading.mw-heading430: div.mw-heading.mw-heading331: div.mw-heading.mw-heading432: div.mw-heading.mw-heading433: div.mw-heading.mw-heading434: div.mw-heading.mw-heading435: div.mw-heading.mw-heading536: div.mw-heading.mw-heading537: div.mw-heading.mw-heading338: div.mw-heading.mw-heading239: div.mw-heading.mw-heading240: div.mw-heading.mw-heading341: div.mw-heading.mw-heading342: div.mw-heading.mw-heading343: div.mw-heading.mw-heading344: div.mw-heading.mw-heading345: div.mw-heading.mw-heading346: div.mw-heading.mw-heading347: div.mw-heading.mw-heading248: div.mw-heading.mw-heading249: div.mw-heading.mw-heading350: div.mw-heading.mw-heading351: div.mw-heading.mw-heading352: div.mw-heading.mw-heading353: div.mw-heading.mw-heading254: div.mw-heading.mw-heading255: div.mw-heading.mw-heading256: div.mw-heading.mw-heading2length: 57[[Prototype]]: NodeList
+myH2.forEach(function(h) {
+    h.style.color = 'red'
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'aqua'
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'black'
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'black'
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'black'
+    h.style.backgroundColor = 'green'
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'black'
+    h.style.backgroundColor = 'green'
+    h.style.padding = '10px'
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'black'
+    h.style.backgroundColor = 'green';
+    h.style.padding = '10px';
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'black'
+    h.style.backgroundColor = 'green';
+    h.style.padding = '10px';
+    h.innerText = "Hitesh"
+})
+undefined
+myH2.forEach(function(h) {
+    h.style.color = 'black'
+    h.style.backgroundColor = 'green';
+    h.style.padding = '10px';
+    h.innerText = "Pratikk"
+})
+
