@@ -7,7 +7,7 @@
 
 ## Project 1
 
-'''javascript
+```javascript
 
 console.log("Pratik)
 
@@ -40,12 +40,12 @@ buttons.forEach(function(button){
 
 
 
-'''
+```
 
 
 ## Project 2
 
-'''javascript
+```javascript
 
 const form = document.querySelector('form');
 // const height = parseInt(document.querySelector('#height').value) // This usecase will give you empty value
@@ -82,12 +82,12 @@ form.addEventListener('submit', function (e) {
 
 
 
-'''
+```
 
 
 ## project 3
 
-'''javascript
+```javascript
 
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
@@ -99,13 +99,13 @@ setInterval(function () {
 }, 1000);
 
 
-'''
+```
 
 
 ## project 4
 
 
-''' javascript
+``` javascript
 
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
@@ -205,4 +205,4 @@ function newGame() {
 }
 
 
-'''
+```
