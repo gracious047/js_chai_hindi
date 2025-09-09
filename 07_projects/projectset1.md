@@ -8,6 +8,7 @@
 ## Project 1
 
 '''javascript
+
 console.log("Pratik)
 
 
@@ -43,6 +44,7 @@ buttons.forEach(function(button){
 ## Project 2
 
 '''javascript
+
 const form = document.querySelector('form');
 // const height = parseInt(document.querySelector('#height').value) // This usecase will give you empty value
 
